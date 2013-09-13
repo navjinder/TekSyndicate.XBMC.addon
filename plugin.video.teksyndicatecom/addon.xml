@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.teksyndicatecom" name="Teksyndicate.com" version="1.0.0" provider-name="navjinder">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.video.youtube" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Watch Teksyndicate.com Videos and Reviews</summary>
+        <language>en</language>
+        <description lang="en">Tek Syndicate is here to make the universe a better place. We are dedicated to bring you the highest quality content, on-location footage, and the latest technology news.We also aim to grow into helpful and welcoming community. Ideas and constructive criticism are always appreciated.</description>
+    </extension>
+</addon>
